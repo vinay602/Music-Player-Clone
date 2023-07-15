@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap');
+body{
+    background-color:antiquewhite;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    position: sticky;
+    background-color: black;
+    font-family: 'Ubuntu', sans-serif;
+
+
+
+}
+
+nav ul{
+    position:sticky;
+    display:flex;
+    list-style-type: none;
+    height: 69px;
+    color: white;
+    
+    align-items: center;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    width: 65px;
+    padding: 0 5px;
+}
+
+.brand{
+    display:flex;
+    align-items: center;
+    font-weight: bold;
+    font: size 1.5rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container{
+    position: relative;
+    min-height:70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    margin :23px auto;
+    width:62%;
+    border-radius: 12px;
+    padding:30px;
+    background-image:url('cover.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+
+}
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    color: white;
+    background-color:black;
+    bottom:0;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+
+#myProgressbar{
+    text-align: center;
+    width: 80vw;
+    cursor: pointer;
+
+}
+
+.icons{
+       margin-top:14px;
+       height:10px;
+       size:20px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+.song1{
+    height: 50px;
+    width:100%;
+
+    display:flex;
+    background-color:white;
+    color:black;
+    margin:12px 0px;
+    border-radius: 10px;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.song1 img {
+    width: 32px;
+    margin:0 23;
+    border-radius: 20px;
+}
+
+.timestamp{
+  margin: 0 15px;
+}
+
+.timestamp i{
+    cursor:pointer;
+}
+
+.songinfo{
+    position: absolute;
+    left:10vw;
+    margin-top: 21px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.songinfo img{
+     opacity: 0;
+     transition: opacity 0.6s ease-in;
+}
